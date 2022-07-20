@@ -14,3 +14,8 @@ for _, mod in ipairs(mods) do
     error(('Error loading %s...\n\n%s'):format(mod, err))
   end
 end
+
+require('cosmic.plugins.toggleterm')
+require('cosmic.plugins.lualine')
+require('cosmic.plugins.formatter')
+require('cosmic.plugins.barbar')
